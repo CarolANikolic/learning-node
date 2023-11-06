@@ -1,4 +1,4 @@
-const { writeFile, appendFile, readFile} = require("fs");
+import { writeFile, appendFile, readFile} from "fs";
 
 
 writeFile("message.txt", "Hello from NodeJS!", (err) => {
